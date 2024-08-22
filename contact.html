@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="background-contact">
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-sm nav-custom">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">Stationery Monthly</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> 
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown"> 
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="shop.html">Shop</a> 
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">Published Issues</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Coming Soon 1</a></li>
+              <li><a class="dropdown-item" href="#">Coming Soon 2</a></li>
+            </ul>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
+      <br>
+    <!--MAKING CONTACT FORM-->
+    <form>
+        <div class="container form-div">
+            <h1>Contact Us</h1>
+            <label for="First Name">First Name:</label> <br>
+            <input type="text" name="firstName" placeholder="First Name"> <br>
+            
+            <label for="Last Name">Last Name:</label> <br>
+            <input type="text" name="lastName" placeholder="Last Name"> <br>
+    
+            <label for="Email">Email</label><br>
+            <input type="text" name="email" placeholder="Email"> <br>
+            
+            <div class="radio-options">
+                <p id="form-text">Which item are you interested in?:</p>
+                <input type="radio" name="item" value="Pen"> Pen <br>
+                <input type="radio" name="item" value="Highlighter"> Highlighter <br>
+                <input type="radio" name="item" value="Notebook"> Notebook <br>
+                <input type="radio" name="item" value="Tape"> Tape <br>
+                <input type="radio" name="item" value="Other"> Other <br><br>
+            </div>
+            
+            <label for="Message">Message:</label> <br>
+            <textarea id="Message" name="Message" rows="10" cols="23" placeholder="Type Message Here"></textarea> <br>
+    
+            <input type="submit" value="Submit">
+            <div>
+                <img src="images/pens.jpeg" alt="Colorful pens"> 
+            </div>
+        </div>
+    </form>
+
+    <div class="container">
+        
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+/* for seeing guides */ 
+/* the * is a universal sector, which is a special type selector that selects all elements.
+* {
+    border: 1px solid cornflowerblue;
+  }
+*/
+
+h1{
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+table {
+  font-size: larger;
+  margin: 2rem auto;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border-width: 20px;
+  border-color: #D8B679;
+  background-color: #D8B679;
+}
+
+th, td {
+  text-align: center;
+  border-bottom: 1px dotted black;
+}
+
+th { 
+  border-bottom: 1px solid black;
+}
+
+/*Change background of home page */
+.background-home {
+  background-color: #A2CAA2;  
+}
+
+/*Change background of shop page */
+.background-shop {
+background-color: #BD94A2;
+}
+
+/*Change background of contact page */
+.background-contact {
+background-color: #D8B679;
+}
+
+/* Changing background color of nav bar */
+.nav-custom {
+  background-color: #50bdf39d;
+}
+
+/* Making nav font larger */
+.navbar-brand {
+  font-size: 30px;
+}
+
+/* Making nav items font bigger */
+.navbar-nav {
+  font-size: 25px;
+}
+
+/* Making nav dropdown menu items font bigger */
+.dropdown-menu{
+  font-size: 20px;
+}
+
+/* Home page centering image */
+.center-img {
+  display: flex;
+  flex-wrap: wrap;
+  /* centering/justifying the images by just putting space around */
+  justify-content: space-around;
+}
+
+/* Home page about info styling */
+.about-info {
+  font-size: larger;
+  max-width: 800px;
+  margin: 2rem auto;
+  color: rgb(0, 0, 0);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  border-style: dotted;
+  border-width: 20px;
+  border-color: #BD94A2;
+}
+
+/* Home page image rounding and spacing */
+#stationery-img {
+  margin: 1rem;
+  border-radius: 2rem; 
+}
+
+.form-div{
+  justify-content: space-around;
+  background-color: #F3D850;
+  text-align: center;
+}
+
+#form-text {
+  padding-top: 1rem;
+  text-align: center;
+}
+
